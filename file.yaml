@@ -2,3 +2,5 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: indigo-java-prod
+  labels:
+    app: indigo-java-prod #ADDED LABLES
